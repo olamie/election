@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="css/budgit.css" rel="stylesheet" media="all">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="js/jqueryui/jquery-ui.min.css">
+
+    <!-- JavaScript-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/raphael-min.js"></script>
+    <script src="js/morris.min.js"></script>
+
+
+
+    <title>Election</title>
+</head>
+
+<body>
+
+<div class="container">
+
+
+    <!-- start header -->
+
+    <header>
+        <div class="container logo">
+            <div class="col-md-2">
+                <a  href="#"><img src="img/logo2.png" alt="Fitila"/></a>
+            </div>
+            <div class="col-md-10 ">
+
+
+            </div>
+        </div>
+    </header>
+    <!-- Dropdown-->
+    <div class="container">
+        <div class="col-md-12 " >
+            <div class="col-md-3" ></div>
+            <div class="col-md-7 pp">
+            <span class="dropdown">
+                <a  id="dLabel" href="#" data-toggle="dropdown" class="dropdown-toggle"> Registered Voters  <b class="caret"></b></a>
+                <ul class="dropdown-menu mobile" >
+                    <li><a href="index.html">2011 Presidential Election</a></li>
+                    <li><a href="pvc.html">Registered Voters</a></li>
+                    <li><a href="#">2015 Election result</a></li>
+
+
+                </ul>
+            </span>
+            </div>
+            <div class="col-md-2" ></div>
+
+        </div>
+    </div>
+    <!-- End header -->
+    <div class="container">
+
+
+        <div class="col-md-12">
+
+            <div class="col-md-4">
+
+                <!-- Country -->
+
+                <div class="state" id="country"  style="margin-top: 200px;">
+                    <h4>Nigeria</h4>
+                    <!-- pdp -->
+                    <p class="areatitle">2011</p>
+                    <p class="areapop">73,528,040</p>
+                    <p class="areatitle">2015</p>
+                    <p class="areapop">68,833,4776</p>
+
+
+                </div>
+
+                <!-- State -->
+
+                <div class="state" id="state"  style="margin-top: 200px;" >
+                    <h4 id="name"></h4>
+                    <!-- pvc -->
+                    <p class="areatitle">2011 </p>
+                    <p class="areapop"><span id="pvc"></span></p>
+                    <p class="areatitle">2015 </p>
+                    <p class="areapop"><span id="pvc2"></span></p>
+
+                </div>
+
+
+            </div>
+            <!-- map div -->
+            <div class="col-md-6">
+                <div id="rate"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- Map script-->
+<script src="js/rate.js"></script>
+<script src="js/timid.js"></script>
+
+
+
+
+<!-- footer-->
+</body>
+</html>
